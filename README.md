@@ -16,7 +16,7 @@ For building and running the application you need:
  
 ##START THE APPLICATION
  1. Copy the jar file "lcs-api-1.0.0-SNAPSHOT.jar" to a local folder.
- 2. Open the terminal and navigate to the folder where your jar file is copied and execute the below command.
+ 2. Open the terminal and navigate to the folder where your jar file is copied and execute the command 
     java -jar lcs-api-1.0.0-SNAPSHOT.jar
  3. By default application will be  started in the port 8080.
  
