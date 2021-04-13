@@ -6,21 +6,23 @@ For building and running the application you need:
 
  1.	JDK 1.8
  2.	Maven
- 3. POSTMAN(Testing)
+ 3.	GIIHUB
+ 4. POSTMAN(Testing)
  
 ##LOCAL SETUP
  Add the following line to your environment variable to set the java home environment variable.
  1. export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home'
  2. export M2_HOME=/usr/local/apache-maven/apache-maven-3.3.1
  3. export M2=$M2_HOME/bin
- 4. bash profile is located at ~/.bash_profile
  
- Note: java and maven path could be different depends on the java/maven installed directory of your  machine.
-       Please refer the below link for more details.
-       https://maven.apache.org/install.html
+ Notes: bash profile is located at ~/.bash_profile
+        java and maven path could be different depends on the java/maven installed directory of your  machine.
+        Please refer the below link for more details.
+        https://maven.apache.org/install.html
        
 ##BUILD THE APPLICATION
- 1. open terminal, navigate to the project root folder /lcs-api and run the command mvn clean install.
+ 1. Clone the lcs-api project using the git command, git clone https://github.com/bhagyarajas/lcs-api.git
+ 2. open terminal, navigate to the project root folder /lcs-api and run the command mvn clean install.
  
 ##START THE APPLICATION
  1. Copy the jar file "lcs-api-1.0.0-SNAPSHOT.jar" to a local folder.
